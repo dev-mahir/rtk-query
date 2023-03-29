@@ -1,0 +1,23 @@
+.blur {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 999 ;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  .modal-wraper {
+    width: 550px;
+    height: 300px;
+    box-shadow: var(--shadow1);
+    border-radius: 10px;
+    background-color: white;
+    .modal-content {
+    }
+  }
+}

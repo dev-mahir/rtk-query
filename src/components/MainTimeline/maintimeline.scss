@@ -1,0 +1,58 @@
+.timeline-all-posts {
+  .timeline-box {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: var(--shadow1);
+    margin-bottom: 10px;
+
+    .auth-info {
+      display: flex;
+      gap: 10px;
+      padding: 10px;
+      align-items: center;
+      position: relative;
+      img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+      button{
+        position: absolute;
+        top: 30px;
+        right: 10px; outline: none;
+        &:focus{
+         
+        }
+      }
+    }
+    .post-content {
+      p {
+        padding: 10px;
+      }
+      img {
+        width: 100%;
+        max-height: 300px;
+        object-fit: contain;
+      }
+      .post-reactions {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+
+        .reaction-item {
+          display: flex;
+          gap: 5px;
+          font-size: 18px;
+          align-items: center;
+          i {
+            font-size: 22px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

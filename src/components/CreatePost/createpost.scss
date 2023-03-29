@@ -1,0 +1,37 @@
+
+.create-post{
+  padding: 20px 10px;
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: var(--shadow1);
+  button{
+    font-size: 16px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+
+
+
+
+}
+
+  .post-form{
+    padding: 20px;
+    input{
+      width: 100%;
+      border: 1px solid #ccc;
+      height: 40px;
+      font-size: 18px;
+      padding:0 10px;
+      box-sizing: border-box;
+      margin-bottom: 10px;
+      border-radius: 5px;
+    }
+  }

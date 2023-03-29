@@ -1,0 +1,14 @@
+{
+  "todos": [
+    {
+      "name": "Go to market",
+      "status": "Pending",
+      "id": 1
+    },
+    {
+      "name": "Go to School",
+      "status": "Pending",
+      "id": 2
+    }
+  ]
+}
